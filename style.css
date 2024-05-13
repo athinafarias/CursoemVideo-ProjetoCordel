@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Kalam:wght@300;400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal
+}
+
+html, body {
+    min-height: 80vh;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #26332c;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 0px 0px 8px #26332cab;
+}
+
+h1 {
+    padding: 10px;
+    font-size: 7vw;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: small-caps;
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 5vh 20px;
+    line-height: 2em;
+    font-size: 3vw;
+}
+
+.normal {
+    color: black;
+}
+
+p {
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: 20px;
+}
+
+.img p {
+    display: inline-block;
+    padding: 20px 40px;
+    background: #17201bc4 left center no-repeat scroll;
+    box-shadow: 0px 0px 8px #1c2721cc;
+    color: white;
+}
+
+#img1 {
+    max-width: 100vh;
+    background: #26332c url('src/bg01.jpg') left center no-repeat fixed;
+    background-size: cover;
+    box-shadow: inset 0px 0px 15px #1c272177;
+}
+
+#img2 {
+    max-width: 100vh;
+    background: #26332c url('src/bg02.jpg') left center no-repeat fixed;
+    background-size: cover;
+    box-shadow: inset 0px 0px 15px #1c272177;
+}
+
+footer {
+    background-color: #26332c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.5vw;
+    box-shadow: 0px 0px 8px #26332cab;
+}
