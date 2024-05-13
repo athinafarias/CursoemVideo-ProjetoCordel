@@ -9,7 +9,7 @@
 }
 
 html, body {
-    min-height: 80vh;
+    min-height: 100vh;
     background-color: #ffffff;
 }
 
@@ -42,8 +42,8 @@ header a:hover, footer a:hover {
 
 section {
     padding: 5vh 20px;
-    line-height: 2em;
-    font-size: 3vw;
+    line-height: 1.5em;
+    font-size: 2.5vw;
 }
 
 .normal {
@@ -66,15 +66,13 @@ p {
 }
 
 #img1 {
-    max-width: 100vh;
-    background: #26332c url('src/bg01.jpg') left center no-repeat fixed;
+    background: #26332c url('src/bg01.jpg') center center no-repeat fixed;
     background-size: cover;
     box-shadow: inset 0px 0px 15px #1c272177;
 }
 
 #img2 {
-    max-width: 100vh;
-    background: #26332c url('src/bg02.jpg') left center no-repeat fixed;
+    background: #26332c url('src/bg02.jpg') center center no-repeat fixed;
     background-size: cover;
     box-shadow: inset 0px 0px 15px #1c272177;
 }
