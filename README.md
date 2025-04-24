@@ -1,4 +1,4 @@
-<h1 align="center">📘 Projeto Curso Em Vídeo: Android</h1>
+<h1 align="center">📘 Projeto Curso Em Vídeo: Cordel</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Feito%20com-HTML&CSS-violet?style=flat" />
